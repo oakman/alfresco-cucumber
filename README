@@ -24,3 +24,6 @@ git clone git://github.com/ricny046/alfresco-cucumber.git
 cd alfresco-cucumber
 
 cucumber features (make sure you have Alfresco running locally on localhost:8080 and that the the admin password is admin)
+
+More information on how to use Cucumber can be found here: http://www.cukes.info/
+More information about Capybara, the test frameworks that is used to test stuff in the browser: http://www.cukes.info/
