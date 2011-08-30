@@ -1,0 +1,21 @@
+Installation on Ubuntu
+======================
+
+sudo apt-get install curl git-core build-essential libxml2-dev libxslt1-dev
+
+bash < <(curl -s https://rvm.beginrescueend.com/install/rvm) Follow the instructions given by
+this command. Usually it tells you to add a row in your .bash_profile.
+
+source .bash_profile
+
+rvm pkg install zlib
+rvm install 1.9.2 # This step takes a while as it needs to compile Ruby.
+
+rvm --default use 1.9.2
+
+ruby -v and make sure you have version 1.9.2
+
+install gems:
+gem install cucumber crack httpclient capybara rspec
+
+git clone a preset
