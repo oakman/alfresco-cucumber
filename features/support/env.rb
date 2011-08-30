@@ -7,6 +7,6 @@ require 'crack'
 
 HOST = 'http://localhost:8080'
 Capybara.default_driver = :selenium
-Capybara.app_host = 'http://localhost:8080' 
+Capybara.app_host = HOST 
 
 World(Capybara)
