@@ -18,6 +18,12 @@ ruby -v and make sure you have version 1.9.2
 install gems:
 gem install cucumber crack httpclient capybara rspec
 
+If you get problems with the zlib library when installing the gems do this:
+rvm package install zlib (yes, install it again...)
+rvm remove 1.9.2
+rvm install 1.9.2 (yes install it again...)
+
+
 Clone the examples from Github:
 git clone git://github.com/ricny046/alfresco-cucumber.git
 
