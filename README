@@ -18,4 +18,9 @@ ruby -v and make sure you have version 1.9.2
 install gems:
 gem install cucumber crack httpclient capybara rspec
 
-git clone a preset
+Clone the examples from Github:
+git clone git://github.com/ricny046/alfresco-cucumber.git
+
+cd alfresco-cucumber
+
+cucumber features (make sure you have Alfresco running locally on localhost:8080 and that the the admin password is admin)
